@@ -21,7 +21,7 @@ The following instructions will guide you through the installation of conda and 
 2. Once you have installed conda and activated it, please run the following command to create an environment specifically for the school tutorials:
 
     ```
-    conda create -n env_como -c conda-forge --override-channels 'python<3.13' lhapdf pineappl eko jupyterlab matplotlib pandas tensorflow      nnpdf -y
+    conda create -n env_como -c conda-forge --override-channels 'python<3.13' lhapdf pineappl eko jupyterlab matplotlib pandas tensorflow nnpdf -y
     conda activate env_como
     ```
 
