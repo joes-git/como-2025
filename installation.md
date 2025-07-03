@@ -47,3 +47,12 @@ The following instructions will guide you through the installation of conda and 
 Now run `jupyter lab` and enjoy :)
 
 Make sure you can import packages such as `lhapdf`, `tensorflow`, and `pineappl` from your notebook: https://docs.jupyter.org/en/latest/
+
+## Common issues
+
+- If you cannot import the packages `lhapdf`, `tensorflow`, or `pineappl` in your notebook, while you can do so in the terminal, you might need to install the Jupyter kernel for your conda environment. Run the following command:
+
+    ```
+    python -m ipykernel install --user --name env_como --display-name "Python (env_como)"
+    ```
+  Restart Jupyter Lab and select the kernel "Python (env_como)" from the Kernel menu.
