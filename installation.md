@@ -19,9 +19,11 @@ The following instructions will guide you through the installation of conda and 
     ```
 
 2. Once you have installed conda and activated it, please run the following command to create an environment specifically for the school tutorials:
+    (remember to change `$HOME/miniconda3` to the path of your conda installation if you modified the default)
 
     ```
-    conda create -n env_como -c conda-forge --override-channels 'python<3.13' lhapdf pineappl eko jupyterlab matplotlib pandas tensorflow nnpdf -y
+    source $HOME/miniconda3/bin/activate
+    conda create -n env_como -c conda-forge --override-channels 'python<3.13' lhapdf pineappl==0.8.6 eko jupyterlab matplotlib pandas tensorflow -y
     conda activate env_como
     ```
 
@@ -29,10 +31,17 @@ The following instructions will guide you through the installation of conda and 
 
 3. For some of the tutorials you might need other packages
 
-    for Quantum Computing:
+    for QCD (1st week);
     ```
     conda activate env_como
-    pip install qibo qiboml
+    python -m pip install yadism
+    ```
+
+    for Quantum Computing (2nd week) you will need an isolated environment:
+    ```
+    conda create -n quantum_env 'python<3.13' jupyterlab
+    conda activate quantum_env
+    python -m pip install qibo qiboml
     ```
 
 Now run `jupyter lab` and enjoy :)
