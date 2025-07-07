@@ -12,7 +12,7 @@ During this session the following topics will be discussed:
 
 2. CKM matrix determination (HEP exercise)
 
-   **notbook:** https://colab.research.google.com/drive/1rPQmHO4-_xORlKFFcJEuS9EB-0wBAn2m?usp=sharing
+   **notebook:** https://colab.research.google.com/drive/1rPQmHO4-_xORlKFFcJEuS9EB-0wBAn2m?usp=sharing
 
 3. Markov Chain Monte Carlo (custom notebook)
 
@@ -24,7 +24,6 @@ Already mentioned above, an interesting resource about Bayesian statistics libra
 MCMC is the ["Bayesian methods for
 hackers"](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers)
 book.
-
 In particular, it is especially valuable to take a look at its [chapter
 3](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/blob/5b33f77a803a1a07dcadabae6cc382c9fd2c77d7/Chapter3_MCMC/Ch3_IntroMCMC_PyMC_current.ipynb).
 
