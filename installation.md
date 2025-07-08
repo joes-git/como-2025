@@ -11,7 +11,7 @@ The following instructions will guide you through the installation of conda and 
 1. Install the right version of conda depending on your system: https://www.anaconda.com/docs/getting-started/miniconda/install#macos-linux-installation
 
     Note: for WSL you need to use the Linux Terminal Installer instructions
-  
+
     Alternatively, the following script will try to automatically download the right version:
     ```
     curl https://raw.githubusercontent.com/NNPDF/binary-bootstrap/master/bootstrap.sh -o bootstrap.sh
@@ -41,7 +41,7 @@ The following instructions will guide you through the installation of conda and 
     ```
     conda create -n quantum_env 'python<3.13' jupyterlab
     conda activate quantum_env
-    python -m pip install qibo qiboml
+    python -m pip install qibo qiboml qibolab[emulator]
     ```
 
 Now run `jupyter lab` and enjoy :)
