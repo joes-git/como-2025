@@ -1,7 +1,0 @@
-# note that for these tutorials we also require an installation of lhapdf
-# or alternatively pdfflow if you want a lightweight alternative that can be installed via pip
-jupyterlab
-matplotlib
-pandas
-pdfflow
-tensorflow>=2
